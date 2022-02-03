@@ -1,5 +1,5 @@
 {% set name = "Orange3-Prototypes" %}
-{% set version = "0.15.0" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6e776a8ff408dc8cbe23913c38338d5c93a4008d0e597d07571974e4993f65f4
+  sha256: 7835f7da9b033432e7d14cbe2c0a7bf111da26d8fd2357cffc0eb3a7b63858b3
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
-  summary: 'Addon with widgets which are still prototypes'
+  summary: Addon with widgets which are still prototypes
   description: |
     Addon with widgets which are still prototypes. Only for the brave.
   doc_url: https://readthedocs.org/projects/orange3-prototypes/

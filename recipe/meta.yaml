@@ -20,13 +20,15 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - Orange3 >=3.28
+    - Orange3 >=3.34
     - numpy
     - scipy
     - scikit-learn
     - pyqtgraph
     - AnyQt >=0.0.8
     - pandas
+    - openai
+    - tiktoken
 
 test:
   imports:
@@ -48,3 +50,4 @@ extra:
     - primozgodec
     - markotoplak
     - ajdapretnar
+    - vesnat

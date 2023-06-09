@@ -1,11 +1,11 @@
-About orange3-prototypes
-========================
+About orange3-prototypes-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange3-prototypes-feedstock/blob/main/LICENSE.txt)
 
 Home: https://orangedatamining.com/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange3-prototypes-feedstock/blob/main/LICENSE.txt)
 
 Summary: Addon with widgets which are still prototypes
 
@@ -153,7 +153,4 @@ Feedstock Maintainers
 * [@ajdapretnar](https://github.com/ajdapretnar/)
 * [@markotoplak](https://github.com/markotoplak/)
 * [@primozgodec](https://github.com/primozgodec/)
-
-
-<!-- dummy commit to enable rerendering -->
 

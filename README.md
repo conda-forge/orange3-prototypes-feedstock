@@ -153,4 +153,5 @@ Feedstock Maintainers
 * [@ajdapretnar](https://github.com/ajdapretnar/)
 * [@markotoplak](https://github.com/markotoplak/)
 * [@primozgodec](https://github.com/primozgodec/)
+* [@vesnat](https://github.com/vesnat/)
 

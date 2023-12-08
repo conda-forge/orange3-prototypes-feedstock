@@ -1,5 +1,5 @@
 {% set name = "Orange3-Prototypes" %}
-{% set version = "0.20.0" %}
+{% set version = "0.21.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 12b598f153c51ac9172b32c60b9030041f6f0a9baa601158ec576e505be94ea7
+  sha256: a5b7cf7ca57b90ae94fa656a7175124f266f6c9451358a0198a88a69787cb6fe
 
 build:
   noarch: python

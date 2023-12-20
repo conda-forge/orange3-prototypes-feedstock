@@ -155,6 +155,3 @@ Feedstock Maintainers
 * [@primozgodec](https://github.com/primozgodec/)
 * [@vesnat](https://github.com/vesnat/)
 
-
-<!-- dummy commit to enable rerendering -->
-

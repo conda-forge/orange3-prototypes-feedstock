@@ -6,20 +6,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 0f248dcb78d7aeacb4b5b0646102e47730acbce796c33530011e593f1c379dfc
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - Orange3 >=3.34
     - numpy >=1.19.5
     - scipy >=1.9.0
@@ -31,6 +32,8 @@ requirements:
     - tiktoken
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - orangecontrib.prototypes
 
